@@ -1,12 +1,12 @@
 const pageConfig = {
   // Title for your status page
-  title: "数字套利 •「AM科技」's Status Page",
+  title: "Good Awesome Day",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://amclubss.com', label: '博客', highlight: true },
-    { link: 'https://809098.xyz', label: 'Blog'},
-    { link: 'https://youtube.com/@AM_CLUBS', label: 'YouTube' },
-    { link: 'https://github.com/amclubs', label: 'GitHub' }, 
+    { link: 'https://mu1.mumu8.ccwu.cc/index2#calculator', label: 'RC', highlight: true },
+    { link: 'https://mu1.mumu8.ccwu.cc/index2', label: 'Awe'},
+    { link: 'https://mu1.mumu8.ccwu.cc/index', label: 'YouTube' },
+    { link: 'https://github.com/knight2010', label: 'GitHub' }, 
   ],
 }
 
@@ -20,17 +20,17 @@ const workerConfig = {
     // Example HTTP Monitor
     {
       // `id` should be unique, history will be kept if the `id` remains constant
-      id: 'am.809098.xyz',
+      id: 'mu1.mumu8.ccwu.cc',
       // `name` is used at status page and callback message
-      name: '博客',
+      name: 'mumu8',
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
-      target: 'https://am.809098.xyz',
+      target: 'https://mu1.mumu8.ccwu.cc/index2',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
       tooltip: 'This is a tooltip for this monitor',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-      statusPageLink: 'https://am.809098.xyz',
+      statusPageLink: 'https://mu1.mumu8.ccwu.cc/index2#calculator',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
       // expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
@@ -50,14 +50,14 @@ const workerConfig = {
     },
     // Example TCP Monitor
     {
-      id: '809098.xyz',
+      id: 'mumu8.ccwu.cc',
       name: 'Blog',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://809098.xyz',
-      tooltip: 'My production server monitor',
-      statusPageLink: 'https://809098.xyz',
+      target: 'https://mu1.mumu8.ccwu.cc/index',
+      tooltip: 'Rongcheng',
+      statusPageLink: 'https://mu1.mumu8.ccwu.cc/index_en',
       timeout: 10000,
     },
   ],
