@@ -21,9 +21,9 @@ export default function Header() {
     <header className={classes.header}>
       <Container size="md" className={classes.inner}>
         <div>
-          <a href="https://www.youtube.com/@AM_CLUB" target="_blank">
+          <a href="https://m8.mumu8.ccwu.cc/" target="_blank">
             <Text size="xl" span>
-              🕒
+              🚀
             </Text>
             <Text
               size="xl"
@@ -32,7 +32,7 @@ export default function Header() {
               variant="gradient"
               gradient={{ from: 'blue', to: 'cyan', deg: 90 }}
             >
-              服务监控
+              好运来
             </Text>
           </a>
         </div>
