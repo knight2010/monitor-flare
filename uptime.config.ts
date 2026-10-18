@@ -60,6 +60,17 @@ const workerConfig = {
       statusPageLink: 'https://mu1.mumu8.ccwu.cc/index_en',
       timeout: 10000,
     },
+    {
+      id: 'web-shell-render',
+      name: 'web shell',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://web-shell-latest-d9dt.onrender.com/',
+      tooltip: 'Web Shell Awesome',
+      statusPageLink: 'https://web-shell-latest-d9dt.onrender.com/',
+      timeout: 10000,
+    },
   ],
   notification: {
     // [Optional] apprise API server URL
